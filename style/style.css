@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --primary-text-color:rgb(19, 19, 19);
+    --secondary-text-color:rgb(66, 66, 66);
+    --secondary-background-color:rgb(255, 244, 231);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 410;
+  font-style: normal;
+}
+.header{
+    background-color:var(--secondary-background-color) ;
+
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+.main-nav li{
+    list-style: none;
+}
+.main-nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--secondary-text-color);
+}
